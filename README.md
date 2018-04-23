@@ -7,4 +7,6 @@ From technical aspect view, the enterprise IT systems could be devided into two 
 This project try to build next generation of B2Bi protocl with last Block Chain technology to replace the current B2Bi protocols. The defects of current protocols will be overcome and the Block Chain benifit will be gained.
 
 ## Current B2Bi protocols
-Traditional B2Bi technology are based on point to point communication 
+AS2 is the most polular protocol, so the the analysis below is based on AS2. AS2 have implements the blow features:
+* Encryption
+* Traditional B2Bi technology are based on point to point communication 
