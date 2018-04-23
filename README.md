@@ -20,3 +20,18 @@ Althgouth AS2 is good and polular, it still has issues below
 * **Architecture** AS2 is point to point communication, both sides need to be able to talk directly.　Once the receiver side is down or network is unsable, it does not work. From this point of view, the system is fragile. And broardcast mode is not supported.
 * **Inconsistency** The data is stored at sender and receiver system, it still has the possible inconsistency especially the MDN is not returned successfully.
 *  **Configuration** To configure AS2,  HTTP URL, digital certificate, etc. are prerequisites. It is impossible to work it out without any expert. 
+
+
+## Design concept
+The design can be logically seperated into two parts
+**P2P network**  based communication with encryption transportation. A high availability network among all partners are established to exchanged business documents. The sender and receiver could be implemented with pulish/subscribe mode.
+**Block chain** based data storage with decentral architecture, data evidence.
+
+## Challenge
+Performance and big data size
+Security consideration
+
+## Implementation
+A more detail draft specification will be worked out.
+All advices and involvement are appericiate.
+So far please reach me at jamie0828@163.com.
