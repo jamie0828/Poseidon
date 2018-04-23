@@ -28,8 +28,8 @@ The design can be logically seperated into two parts
 **Block chain** based data storage with decentral architecture, data evidence.
 
 ## Challenge
-Performance and big data size
-Security consideration
+* Performance and big data size
+* Security consideration
 
 ## Implementation
 A more detail draft specification will be worked out.
