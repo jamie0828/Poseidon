@@ -17,3 +17,6 @@ Key technologies of AS2 are Asymmetric encryption,digital certificate,encryption
 
 Althgouth AS2 is good and polular, it still has issues below
 
+* **Architecture** AS2 is point to point communication, both sides need to be able to talk directly.　Once the receiver side is down or network is unsable, it does not work. From this point of view, the system is fragile.
+* **Inconsistency** The data is stored at sender and receiver system, it still has the possible inconsistency especially the MDN is not returned successfully.
+*  **Configuration** 
