@@ -8,5 +8,12 @@ This project try to build next generation of B2Bi protocl with last Block Chain 
 
 ## Current B2Bi protocols
 AS2 is the most polular protocol, so the the analysis below is based on AS2. AS2 have implements the blow features:
-* Encryption
-* Traditional B2Bi technology are based on point to point communication 
+* Security
+* reliability
+* Integrity
+* Non repudiation
+
+Key technologies of AS2 are Asymmetric encryption,digital certificate,encryption/decryption, digital signature and MDN(Message Delivery Notification).
+
+Althgouth AS2 is good and polular, it still has issues below
+
