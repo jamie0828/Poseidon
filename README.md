@@ -25,7 +25,8 @@ Althgouth AS2 is good and polular, it still has issues below
 ## Design concept
 The design can be logically seperated into two parts
 **P2P network**  based communication with encryption transportation. A high availability network among all partners are established to exchanged business documents. The sender and receiver could be implemented with pulish/subscribe mode.
-**Block chain** based data storage with decentral architecture, data evidence.
+
+**Block chain** based data storage with decentral architecture to achieve data evidence.
 
 ## Challenge
 * Performance and big data size
