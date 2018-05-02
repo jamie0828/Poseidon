@@ -37,6 +37,8 @@ The system can be logically seperated into below parts
 
 **IFPS like storage** to store message data. To avoid the block chain become too big, only the transactions signature are stored in block chain and the data is stored seperately.
 
+**Token** Use token to simplify the transfer value inside alliance
+
 ## Challenge
 * Performance and big data size
 * Security consideration
