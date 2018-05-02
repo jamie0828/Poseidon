@@ -6,6 +6,12 @@ From technical aspect of view, the enterprise IT systems could be divided into t
 
 This project try to build next generation of B2Bi protocol with last Block Chain technology to replace the current B2Bi protocols. The defects of current protocols will be overcome and the Block Chain benifit will be gained.
 
+The goal is to to build a global business network to exchange business documents with following features:
+* Decenteralize Currently the EDI center is hub/spoke mode, the central node is for management, charge and data communication.
+* None repudiation All the transactions are record and trackable(for sender and receiver only).
+* Security Data transfer and storage are encrypted; the transaction is anonymous.
+* Easy to use Just connect to the network with zero configuration.
+
 ## Current B2Bi protocols
 AS2 is the most polular protocol, so the the analysis below is based on AS2. AS2 have implements the blow features:
 * Security
@@ -23,14 +29,18 @@ Althgouth AS2 is good and polular, it still has issues below
 
 
 ## Design concept
-The design can be logically seperated into two parts
+The system can be logically seperated into below parts
+
 **P2P network**  based communication with encryption transportation. A high availability network among all partners are established to exchanged business documents. The sender and receiver could be implemented with pulish/subscribe mode.
 
 **Block chain** based data storage with decentral architecture to achieve data evidence.
 
+**IFPS like storage** to store message data. To avoid the block chain become too big, only the transactions signature are stored in block chain and the data is stored seperately.
+
 ## Challenge
 * Performance and big data size
 * Security consideration
+* MDN
 
 ## Implementation
 A more detail draft specification will be worked out.
